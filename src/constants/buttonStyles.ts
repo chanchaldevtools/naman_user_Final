@@ -1,0 +1,70 @@
+import { StyleSheet } from 'react-native';
+import AppColors from './colors';
+
+export const buttonStyles = StyleSheet.create({
+  curveButtonStyleThemeColor: {
+    backgroundColor: AppColors.themeColor,
+    minWidth: 150,
+    height: 42,
+    paddingHorizontal: 20,
+    borderRadius: 6,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+  },
+  curveButtonStyleThemeColorTwo: {
+    backgroundColor: AppColors.themeColorTwo,
+    minWidth: 150,
+    height: 42,
+    paddingHorizontal: 20,
+    borderRadius: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  elevatedCurveButtonStyleRed: {
+    backgroundColor: AppColors.redAccent,
+    minWidth: 100,
+    height: 40,
+    paddingHorizontal: 16,
+    borderRadius: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 2,
+  },
+  elevatedCurveButtonStyleWhite: {
+    backgroundColor: AppColors.white,
+    minWidth: 180,
+    height: 42,
+    paddingHorizontal: 16,
+    borderRadius: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E0E0E0',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.15,
+    shadowRadius: 2,
+  },
+  elevatedButtonStyleStripe: {
+    backgroundColor: '#7C4DFF',
+    minWidth: 150,
+    height: 50,
+    paddingHorizontal: 16,
+    borderRadius: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonTextWhite: {
+    color: AppColors.white,
+    fontSize: 14,
+    fontWeight: '600',
+  },
+});
+
+export default buttonStyles;

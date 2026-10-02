@@ -1,0 +1,25 @@
+export const Images = {
+  adlogo: require('./adlogo.png'),
+  applogo: require('./applogo.png'),
+  banner: require('./banner.jpg'),
+  blinkDot: require('./blink_dot.gif'),
+  bluedwn: require('./bluedwn.png'),
+  blutop: require('./blutop.png'),
+  call: require('./call.png'),
+  ds: require('./ds.jpg'),
+  gn: require('./gn.png'),
+  icon: require('./icon.png'),
+  imagePlaceholder: require('./image.png'),
+  loading: require('./loading.gif'),
+  logo: require('./logo.png'),
+  md: require('./md.png'),
+  ot: require('./ot.png'),
+  rec: require('./rec.png'),
+  recGif: require('./rec_gif.gif'),
+  sf: require('./sf.png'),
+  signal: require('./signal.png'),
+  sp: require('./sp.png'),
+  tnlogo: require('./tnlogo.png'),
+};
+
+export default Images;
